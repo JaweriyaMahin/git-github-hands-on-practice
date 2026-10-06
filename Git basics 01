@@ -23,7 +23,7 @@ In simple words:
 
 Git mainly works on our local computer.
 
----
+
 
 ## 2. What is GitHub?
 
@@ -36,7 +36,7 @@ In simple words:
 
 Git and GitHub are different, but they work together.
 
----
+
 
 ## 3. Git Repository
 
@@ -44,15 +44,15 @@ A Git repository is a project folder that Git is tracking.
 
 When we run:
 
-```bash
+bash
 git init
-```
+
 
 Git creates a hidden `.git` directory.
 
 The `.git` directory contains Git's information about the repository, commits, branches, and history.
 
----
+
 
 ## 4. Working Directory
 
@@ -60,15 +60,15 @@ The working directory is the actual project folder where we create and modify fi
 
 Example:
 
-```text
+text
 git-practice/
 ├── README.md
 └── notes.txt
-```
+
 
 When we modify these files, Git detects the changes.
 
----
+
 
 ## 5. Staging Area
 
@@ -76,21 +76,17 @@ The staging area contains changes that we want to include in the next commit.
 
 We add changes using:
 
-```bash
+bash
 git add .
-```
+
 
 Flow:
-
-```text
+text
 Working Directory
        ↓
     git add
        ↓
  Staging Area
-```
-
----
 
 ## 6. Commit
 
@@ -98,22 +94,19 @@ A commit is a saved snapshot of the staged changes.
 
 Example:
 
-```bash
+bash
 git commit -m "Initial commit"
-```
 
 A good commit message should describe what was changed.
 
 Examples:
 
-```text
+text
 Initial commit
 Added project README
 Updated application file
 Fixed configuration
-```
 
----
 
 ## 7. git status
 
@@ -121,9 +114,9 @@ Fixed configuration
 
 Example:
 
-```bash
+bash
 git status
-```
+
 
 It can tell us:
 
@@ -132,7 +125,7 @@ It can tell us:
 * Which files are staged
 * Which branch we are currently on
 
----
+
 
 ## 8. git add
 
@@ -140,17 +133,16 @@ It can tell us:
 
 Example:
 
-```bash
+bash
 git add README.md
-```
 
 To stage all changes:
 
-```bash
+bash
 git add .
-```
 
----
+
+
 
 ## 9. git commit
 
@@ -158,11 +150,11 @@ git add .
 
 Example:
 
-```bash
+bash
 git commit -m "Initial commit"
-```
 
----
+
+
 
 ## 10. git log
 
@@ -170,23 +162,21 @@ git commit -m "Initial commit"
 
 Example:
 
-```bash
+bash
 git log
-```
+
 
 A shorter version:
 
-```bash
+bash
 git log --oneline
-```
 
----
+
 
 ## 11. Basic Git Workflow
 
 The basic workflow is:
-
-```text
+text
 Create / Modify files
         ↓
    git status
@@ -198,11 +188,14 @@ Create / Modify files
     git commit
         ↓
   Git Repository
-```
 
----
+## 12. github : push your repository
+ * git remote add origin YOUR_GITHUB_REPOSITORY_URL
+ * git branch -M main
+ * git push -u origin main
 
-## 12. Git vs GitHub
+
+## 13. Git vs GitHub
 
 | Git                  | GitHub                       |
 | -------------------- | ---------------------------- |
@@ -212,22 +205,22 @@ Create / Modify files
 | Creates commits      | Stores/shares repositories   |
 | Command-line/tool    | Web platform + collaboration |
 
----
 
-## 13. Important Commands
 
-```bash
+## 14. Important Commands
+
+bash
 git init
 git status
 git add .
 git commit -m "message"
 git log
 git log --oneline
-```
 
----
 
-## 14. Day 1 Learning
+
+
+## 15. Day 1 Learning
 
 After completing Day 1, I should be able to:
 
