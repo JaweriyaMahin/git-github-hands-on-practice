@@ -1,0 +1,243 @@
+Git
+ ├── Repository
+ ├── Working Directory
+ ├── Staging Area
+ ├── Commit
+ ├── git status
+ ├── git add
+ ├── git commit
+ └── git log
+
+GitHub
+ └── Push your Git repository
+
+ # Day 1 — Git Basics
+
+## 1. What is Git?
+
+Git is a distributed version control system used to track changes in files and manage different versions of a project.
+
+In simple words:
+
+> Git helps us track what changed, when it changed, and who made the change.
+
+Git mainly works on our local computer.
+
+---
+
+## 2. What is GitHub?
+
+GitHub is a cloud-based platform where Git repositories can be stored and shared.
+
+In simple words:
+
+* Git = version control tool
+* GitHub = online platform for Git repositories
+
+Git and GitHub are different, but they work together.
+
+---
+
+## 3. Git Repository
+
+A Git repository is a project folder that Git is tracking.
+
+When we run:
+
+```bash
+git init
+```
+
+Git creates a hidden `.git` directory.
+
+The `.git` directory contains Git's information about the repository, commits, branches, and history.
+
+---
+
+## 4. Working Directory
+
+The working directory is the actual project folder where we create and modify files.
+
+Example:
+
+```text
+git-practice/
+├── README.md
+└── notes.txt
+```
+
+When we modify these files, Git detects the changes.
+
+---
+
+## 5. Staging Area
+
+The staging area contains changes that we want to include in the next commit.
+
+We add changes using:
+
+```bash
+git add .
+```
+
+Flow:
+
+```text
+Working Directory
+       ↓
+    git add
+       ↓
+ Staging Area
+```
+
+---
+
+## 6. Commit
+
+A commit is a saved snapshot of the staged changes.
+
+Example:
+
+```bash
+git commit -m "Initial commit"
+```
+
+A good commit message should describe what was changed.
+
+Examples:
+
+```text
+Initial commit
+Added project README
+Updated application file
+Fixed configuration
+```
+
+---
+
+## 7. git status
+
+`git status` shows the current state of the working directory and staging area.
+
+Example:
+
+```bash
+git status
+```
+
+It can tell us:
+
+* Which files are modified
+* Which files are untracked
+* Which files are staged
+* Which branch we are currently on
+
+---
+
+## 8. git add
+
+`git add` moves changes from the working directory to the staging area.
+
+Example:
+
+```bash
+git add README.md
+```
+
+To stage all changes:
+
+```bash
+git add .
+```
+
+---
+
+## 9. git commit
+
+`git commit` saves the staged changes into Git history.
+
+Example:
+
+```bash
+git commit -m "Initial commit"
+```
+
+---
+
+## 10. git log
+
+`git log` displays the commit history.
+
+Example:
+
+```bash
+git log
+```
+
+A shorter version:
+
+```bash
+git log --oneline
+```
+
+---
+
+## 11. Basic Git Workflow
+
+The basic workflow is:
+
+```text
+Create / Modify files
+        ↓
+   git status
+        ↓
+     git add
+        ↓
+   Staging Area
+        ↓
+    git commit
+        ↓
+  Git Repository
+```
+
+---
+
+## 12. Git vs GitHub
+
+| Git                  | GitHub                       |
+| -------------------- | ---------------------------- |
+| Version control tool | Online platform              |
+| Works locally        | Works online                 |
+| Tracks changes       | Hosts Git repositories       |
+| Creates commits      | Stores/shares repositories   |
+| Command-line/tool    | Web platform + collaboration |
+
+---
+
+## 13. Important Commands
+
+```bash
+git init
+git status
+git add .
+git commit -m "message"
+git log
+git log --oneline
+```
+
+---
+
+## 14. Day 1 Learning
+
+After completing Day 1, I should be able to:
+
+* Create a Git repository
+* Check repository status
+* Track files
+* Stage changes
+* Create commits
+* View commit history
+* Explain Working Directory
+* Explain Staging Area
+* Explain Repository
+* Explain Git vs GitHub
