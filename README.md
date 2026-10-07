@@ -15,7 +15,7 @@ continue adding more concepts and hands-on activities as I progress.
 
 
 
-## 🎯 Day 1 Objective
+##  Day 1 Objective
 
 The main goal of Day 1 was to understand the basic Git workflow and perform my first GitHub push.
 
@@ -27,13 +27,14 @@ The main goal of Day 1 was to understand the basic Git workflow and perform my f
 - Creating commits
 - Viewing commit history
 - Connecting local Git with GitHub
+- create repository
 - Working with the `main` branch
 - Pushing changes to GitHub
 
 
 
 ##  Basic Git Workflow
-text
+
 Working Directory
        ↓
    git add
