@@ -1,0 +1,14 @@
+# Day 2 - Git Hands-on
+
+Today I practiced tracking file changes with Git.
+
+## What I learned
+- git status
+- git diff
+- git add
+- git diff --staged
+- git commit
+- git restore
+
+learn how to track file modification, compare changes .
+
