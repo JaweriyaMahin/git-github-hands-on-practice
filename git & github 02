@@ -12,3 +12,100 @@ Today I practiced tracking file changes with Git.
 
 learn how to track file modification, compare changes .
 
+## 1. What are Git Changes?
+
+Git changes are modifications made to files after the last commit.
+Git helps us track, review, stage, and save these changes.
+
+## 2. `git status`
+
+**Meaning:** Shows the current state of files in the repository.
+
+```bash
+git status
+```
+
+**Use:** To check which files are modified, staged, or untracked.
+
+## 3. `git add`
+
+**Meaning:** Adds changes to the staging area for the next commit.
+
+```bash
+git add practice.txt
+```
+
+To stage all changes in the current folder:
+
+```bash
+git add .
+```
+
+## 4. `git diff`
+
+**Meaning:** Shows changes that have not yet been staged.
+
+```bash
+git diff
+```
+
+**Use:** To review modifications before staging them.
+
+## 5. `git diff --staged`
+
+**Meaning:** Shows changes that are already staged and ready for the next commit.
+
+```bash
+git diff --staged
+```
+
+## 6. `git restore --staged`
+
+**Meaning:** Removes a file's changes from the staging area without discarding the edits in the working file.
+
+```bash
+git restore --staged practice.txt
+```
+
+## 7. `git restore`
+
+**Meaning:** Discards unstaged changes in a file and restores its content from the index.
+
+```bash
+git restore practice.txt
+```
+
+**Warning:** This can permanently discard unstaged edits. Use it carefully.
+
+## 8. `git commit`
+
+**Meaning:** Saves staged changes as a new commit in Git history.
+
+```bash
+git commit -m "Practice Git changes commands"
+```
+
+## 9. `git log --oneline`
+
+**Meaning:** Displays commit history in a short format.
+
+```bash
+git log --oneline
+```
+
+## What I Practiced
+
+* Checking repository status
+* Modifying a file
+* Comparing file changes
+* Staging changes
+* Removing changes from staging
+* Discarding temporary changes
+* Creating commits and checking commit history
+
+## Learning Outcome
+
+I learned how Git tracks file modifications and how to manage changes before
+committing them. This practical is part of my Git and GitHub learning journey for AWS Cloud and DevOps.
+
+
