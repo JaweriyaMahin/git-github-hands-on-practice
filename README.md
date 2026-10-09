@@ -60,3 +60,26 @@ Local Repository
 * git remote add origin <repository-url>
 * git branch -M main
 * git push -u origin main
+
+
+# Day 2: Git Changes Practice
+
+This is my Day 2 hands-on practice of Git and GitHub as part of my AWS Cloud and DevOps learning journey.
+
+### Topics Covered
+
+* `git status`
+* `git add`
+* `git diff`
+* `git diff --staged`
+* `git restore`
+* `git restore --staged`
+* `git commit`
+* `git log --oneline`
+
+### Learning Outcome
+
+I learned how to track file changes, stage modifications,
+undo unwanted changes, and manage Git commits.
+
+
