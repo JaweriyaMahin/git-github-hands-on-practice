@@ -1,1 +1,45 @@
 practicing git branching basics
+
+# Day 3 — Git Branching Basics
+
+## 1. What is Git Branching?
+Git branching allows us to work on changes separately without directly affecting the main branch.
+
+## 2. Check Branches
+git branch
+Shows the available local branches. The `*` symbol indicates the current branch.
+
+## 3. Create a New Branch
+git branch practice-branch
+Creates a new branch named `practice-branch`.
+
+## 4. Switch to a Branch
+git switch practice-branch
+Switches to the `practice-branch`.
+
+## 5. Check Repository Status
+git status
+Shows the current branch and the status of files.
+
+## 6. Add Changes
+git add practice.txt
+Stages the changes in `practice.txt`.
+
+## 7. Commit Changes
+git commit -m "Update practice branch"
+Saves the staged changes as a commit on the current branch.
+
+## 8. Switch Back to Main
+git switch main
+Switches back to the `main` branch.
+
+## What I Practiced
+- Checking the current branch
+- Creating a new branch
+- Switching between branches
+- Editing a file on a separate branch
+- Committing changes
+
+## Learning Outcome
+I learned how to create and switch branches and how
+to work on changes separately from the main branch.
