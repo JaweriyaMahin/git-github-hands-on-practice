@@ -1,2 +1,100 @@
-git merg
+git merge
 practicing git and github
+
+
+# Day 4: Git Branching and Merge
+
+## 1. What is Git Merge?
+
+Git merge is used to combine changes from one branch into another branch.
+
+For example, we make changes in a feature branch and then merge those changes into the main branch.
+
+## 2. Commands and Their Details
+
+### 1. git init
+
+Meaning: Initializes a new Git repository in the current folder.
+
+Use: It allows Git to track changes in files inside the project.
+
+### 2. git branch
+
+Meaning: Displays all branches in the repository.
+
+Use: To check which branches exist. The * symbol indicates the current branch.
+
+### 3. git branch feature
+
+Meaning: Creates a new branch named feature.
+
+Use: To work on a new feature separately from the main branch.
+
+Note: This command creates the branch but does not switch to it.
+
+### 4. git switch feature
+
+Meaning: Switches to the existing feature branch.
+
+Use: To work on files in that branch.
+
+### 5. git status
+
+Meaning: Shows the current state of the working directory and staging area.
+
+Use: To check whether files are modified, staged, or untracked.
+
+### 6. git add file
+
+Meaning: Adds the changes in file to the staging area.
+
+Use: To select the file changes you want to include in the next commit.
+
+Remember: git add stages changes; it does not create a commit.
+
+### 7. git commit -m "Add feature branch change"
+
+Meaning: Creates a commit containing the staged changes.
+
+Use: To save a snapshot of your changes in Git history.
+
+### 8. git switch main
+
+Meaning: Switches to the main branch.
+
+Use: We used this command before merging the feature branch into main.
+
+### 9. git merge feature
+
+Meaning: Merges changes from feature into the current branch.
+
+Use: When you are on main, this command integrates the changes from feature into main.
+
+Important: The current branch receives the merged changes.
+
+### 10. git log --oneline
+
+Meaning: Displays commit history in a short, one-line format.
+
+Use: To quickly review recent commits and their messages.
+
+## 3. Practical Workflow
+
+1. Initialized a Git repository.
+2. Created and committed the initial file.
+3. Created a feature branch.
+4. Switched to feature and changed the file.
+5. Staged and committed the change.
+6. Switched back to main.
+7. Merged feature into main.
+8. Verified the file and commit history.
+
+## 4. Key Learning
+
+- A branch helps us work separately on changes.
+- git add stages changes.
+- git commit saves staged changes in Git history.
+- git switch changes the current branch.
+- git merge integrates another branch into the current branch.
+- git log --oneline displays a compact commit history.
+
