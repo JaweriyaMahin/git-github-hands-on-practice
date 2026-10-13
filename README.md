@@ -107,5 +107,37 @@ I learned how Git branches work and how to make changes in a separate branch wit
 
 
 
+# Day 4: Git Branching and Merge
+
+## About
+This repository contains my Day 4 Git hands-on practice of git branching
+
+## Topics Covered
+- Creating a new branch
+- Switching between branches
+- Checking file status
+- Staging and committing changes
+- Merging a feature branch into the main branch
+- Checking commit history
+
+## Practical Work
+Created a `feature` branch and added changes to a file. After committing the 
+changes, switched to the `main` branch and merged the feature branch into it.
+
+## Commands Practiced
+- `git init`
+- `git branch`
+- `git switch`
+- `git status`
+- `git add`
+- `git commit`
+- `git merge`
+- `git log --oneline`
+
+## Learning Outcome
+I learned how to merge changes from a feature branch into the main branch using Git.
+
+
+
 
 
