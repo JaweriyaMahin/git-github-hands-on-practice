@@ -83,3 +83,29 @@ I learned how to track file changes, stage modifications,
 undo unwanted changes, and manage Git commits.
 
 
+
+# Day 3: Git Branching Practice
+
+## About
+This repository contains my Day 3 Git hands-on practice as part of my AWS Cloud and DevOps learning journey.
+
+## Topics Covered
+- Creating a branch using `git branch`
+- Switching branches using `git switch`
+- Checking branches using `git branch`
+- Checking file status using `git status`
+- Staging changes using `git add`
+- Committing changes using `git commit`
+- Checking commit history using `git log --oneline`
+
+## Practical Work
+Created a separate branch, made changes to a file, and committed the changes.
+Then switched between branches to understand how changes are maintained separately.
+
+## Learning Outcome
+I learned how Git branches work and how to make changes in a separate branch without directly modifying the main branch.
+
+
+
+
+
