@@ -137,6 +137,40 @@ changes, switched to the `main` branch and merged the feature branch into it.
 ## Learning Outcome
 I learned how to merge changes from a feature branch into the main branch using Git.
 
+# Day 5: GitHub Remote Repository Practice
+
+## About
+ Day 5 of Git and GitHub hands-on practice as part of my AWS Cloud and DevOps learning journey.
+
+## Topics Covered
+- Understanding local and remote repositories
+- Connecting a local Git repository to GitHub
+- Adding a remote repository using `git remote add`
+- Checking remote repository details using `git remote -v`
+- Renaming the current branch to `main`
+- Pushing local commits to GitHub using `git push`
+
+## Practical Work
+Created a local Git repository and practiced preparing it for connection with a 
+GitHub remote repository. The goal is to understand how local project files and
+commits can be uploaded to GitHub.
+
+## Commands Practiced
+- `git init`
+- `git status`
+- `git add`
+- `git commit`
+- `git remote -v`
+- `git remote add origin`
+- `git branch -M main`
+- `git push -u origin main`
+
+## Learning Outcome
+I learned the basic workflow of connecting a local Git repository to 
+GitHub and uploading local commits to a remote repository.
+
+
+
 
 
 
