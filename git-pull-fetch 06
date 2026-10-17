@@ -1,0 +1,84 @@
+
+# Day 6: Git Pull and Fetch
+
+## 1. What is Git Fetch?
+Git fetch downloads the latest changes and commit information
+from a remote repository without merging those changes into
+the current local branch.
+
+Command:
+git fetch origin
+
+Use:
+To check remote updates before applying them locally.
+
+## 2. What is Git Pull?
+Git pull downloads changes from a remote repository and
+integrates them into the current local branch.
+
+Command:
+git pull origin main
+
+Use:
+To update the local branch with changes from GitHub.
+
+## 3. Difference Between Git Fetch and Git Pull
+
+Git Fetch:
+- Downloads remote updates.
+- Does not integrate them into the current branch.
+- Allows you to inspect changes before integrating them.
+
+Git Pull:
+- Downloads remote updates.
+- Integrates them into the current branch.
+- Can cause merge conflicts if changes conflict.
+
+## 4. What is Git Clone?
+Git clone creates a local copy of an existing remote repository.
+
+Command:
+git clone REPOSITORY_URL
+
+Use:
+To download a GitHub repository to your computer for the first time.
+
+## 5. Important Commands
+
+git remote -v
+Shows the configured remote repository URLs.
+
+git fetch origin
+Downloads updates from the remote named origin.
+
+git pull origin main
+Fetches and integrates updates from the remote main branch.
+
+git clone REPOSITORY_URL
+Creates a local copy of a remote repository.
+
+git status
+Shows the current state of the working directory.
+
+git log --oneline
+Shows a short commit history.
+
+## 6. Practical Workflow
+
+1. Create a local Git repository.
+2. Add a file and commit the changes.
+3. Create a separate GitHub repository.
+4. Connect the local repository to GitHub.
+5. Push the local commit to GitHub.
+6. Make a small change on GitHub.
+7. Run git fetch origin to download remote updates.
+8. Inspect the available updates.
+9. Run git pull origin main to integrate updates.
+10. Check the updated file using git status.
+
+## 7. Learning Outcome
+
+I learned the difference between Git fetch, Git pull,
+and Git clone, and how local and remote repositories
+synchronize changes.
+
