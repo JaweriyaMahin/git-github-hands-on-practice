@@ -87,7 +87,7 @@ undo unwanted changes, and manage Git commits.
 # Day 3: Git Branching Practice
 
 ## About
-This repository contains my Day 3 Git hands-on practice as part of my AWS Cloud and DevOps learning journey.
+- my Day 3 Git hands-on practice as part of my AWS Cloud and DevOps learning journey.
 
 ## Topics Covered
 - Creating a branch using `git branch`
@@ -110,7 +110,7 @@ I learned how Git branches work and how to make changes in a separate branch wit
 # Day 4: Git Branching and Merge
 
 ## About
-This repository contains my Day 4 Git hands-on practice of git branching
+- my Day 4 Git hands-on practice of git branching
 
 ## Topics Covered
 - Creating a new branch
@@ -168,6 +168,44 @@ commits can be uploaded to GitHub.
 ## Learning Outcome
 I learned the basic workflow of connecting a local Git repository to 
 GitHub and uploading local commits to a remote repository.
+
+
+
+# Day 6: Git Pull and Fetch Practice
+
+## About
+- Day 6 Git and GitHub hands-on practice as part of my AWS Cloud and DevOps learning journey.
+
+## Topics Covered
+- Understanding Git Fetch
+- Understanding Git Pull
+- Understanding Git Clone
+- Synchronizing local and remote repositories
+- Checking remote repository details
+- Reviewing Git commit history
+
+## Commands Practiced
+- `git init`
+- `git add`
+- `git commit`
+- `git remote -v`
+- `git fetch origin`
+- `git pull origin main`
+- `git clone`
+- `git status`
+- `git log --oneline`
+
+## Practical Work
+Created a separate local Git repository and practiced preparing it for connection to GitHub. The objective is to understand how to fetch remote updates and integrate them into the local repository.
+
+## Learning Outcome
+I learned the difference between `git fetch`, `git pull`, and `git clone`, 
+and how these commands help manage changes between local and remote repositories.
+
+## Key Difference
+- **Git Fetch:** Downloads remote updates without integrating them into the current branch.
+- **Git Pull:** Downloads remote updates and integrates them into the current branch.
+- **Git Clone:** Creates a local copy of an existing remote repository.
 
 
 
