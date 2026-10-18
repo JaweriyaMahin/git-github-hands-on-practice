@@ -1,0 +1,66 @@
+
+# Day 8: Git Workflow and Git Ignore
+
+## 1. Real-World Git Workflow
+A typical workflow includes creating a branch, making
+changes, staging files, committing, pushing, reviewing,
+and merging changes.
+
+## 2. Git Status
+git status shows the state of the working directory
+and staging area.
+
+## 3. Git Diff
+git diff shows unstaged changes.
+git diff --staged shows staged changes.
+
+## 4. Git Show
+git show displays details of a commit, including
+its changes and metadata.
+
+## 5. Git Log
+git log displays the commit history.
+git log --oneline displays commits in a compact format.
+
+## 6. Git Restore
+git restore filename restores unstaged changes
+in a tracked file.
+Use carefully because it can discard local changes.
+
+## 7. Git MV
+git mv oldname newname renames or moves a tracked file
+and stages the change.
+
+## 8. Git RM
+git rm filename removes a tracked file and stages
+its removal.
+
+## 9. Git Stash
+git stash temporarily saves changes in the working
+directory so you can work on something else.
+
+## 10. Git Ignore
+A .gitignore file tells Git which untracked files
+or directories should be ignored.
+
+Common examples:
+- Temporary files
+- Log files
+- Build output
+- Local environment files
+
+Important:
+.gitignore does not automatically stop tracking files
+that are already tracked by Git.
+
+## 11. Git Check Ignore
+git check-ignore filename checks whether a file
+matches a .gitignore rule.
+
+## 12. Interview Question
+Q: Why is .gitignore used?
+
+Answer:
+It prevents selected untracked files, such as temporary
+files and local configuration files, from being added
+to the repository accidentally.
