@@ -57,10 +57,3 @@ that are already tracked by Git.
 git check-ignore filename checks whether a file
 matches a .gitignore rule.
 
-## 12. Interview Question
-Q: Why is .gitignore used?
-
-Answer:
-It prevents selected untracked files, such as temporary
-files and local configuration files, from being added
-to the repository accidentally.
