@@ -1,0 +1,41 @@
+
+# Day 7: GitHub Pull Request and Collaboration
+
+## 1. GitHub Collaboration
+GitHub collaboration allows multiple developers to work
+on a project, share code, review changes, and fix issues.
+
+## 2. Feature Branch
+A feature branch is a separate branch used to develop
+features or make changes without directly modifying main.
+
+## 3. Pull Request (PR)
+A Pull Request is a request to review and merge changes
+from one branch into another branch on GitHub.
+
+## 4. Code Review
+Code review is the process of checking proposed code
+changes for errors, quality, security, and maintainability.
+
+## 5. Pull Request Workflow
+1. Create a feature branch.
+2. Make code changes.
+3. Commit the changes.
+4. Push the branch to GitHub.
+5. Open a Pull Request.
+6. Review and discuss the changes.
+7. Approve and merge the Pull Request.
+
+## 6. Git Merge vs Pull Request
+Git Merge combines changes from one branch into another.
+A Pull Request is a collaboration and review process
+provided by platforms such as GitHub.
+
+## 7. Fork
+A fork is a personal copy of another user's repository
+under your GitHub account.
+
+## 8. Issues
+GitHub Issues are used to track bugs, tasks, questions,
+and feature requests.
+
