@@ -13,8 +13,6 @@ create commits, check commit history, connect a local repository with GitHub, an
 This is the beginning of my Git & GitHub practice, and I will
 continue adding more concepts and hands-on activities as I progress.
 
-
-
 ##  Day 1 Objective
 
 The main goal of Day 1 was to understand the basic Git workflow and perform my first GitHub push.
@@ -30,7 +28,6 @@ The main goal of Day 1 was to understand the basic Git workflow and perform my f
 - create repository
 - Working with the `main` branch
 - Pushing changes to GitHub
-
 
 
 ##  Basic Git Workflow
