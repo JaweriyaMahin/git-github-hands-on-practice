@@ -206,7 +206,84 @@ and how these commands help manage changes between local and remote repositories
 
 
 
+# Day 7: GitHub Pull Request and Collaboration
 
+## About
+This repository contains my Day 7 Git and GitHub learning notes as part of my AWS Cloud and DevOps learning journey.
+
+## Topics Covered
+- Understanding GitHub collaboration
+- Feature branches
+- Pull Requests (PR)
+- Pull Request workflow
+- Code review
+- Merging Pull Requests
+- Difference between Git Merge and Pull Request
+- Forking a repository
+- GitHub Issues
+
+## Important Concepts
+- Creating a feature branch
+- Pushing a branch to GitHub
+- Creating a Pull Request
+- Reviewing code changes
+- Discussing and approving changes
+- Merging a Pull Request
+
+## Learning Outcome
+I learned how developers collaborate on GitHub using branches and Pull
+Requests, and how code reviews help maintain code quality.
+
+## Purpose
+To understand the basic collaboration workflow used by
+development and DevOps teams in real-world projects.
+
+
+
+
+# Day 8: Git Workflow and Gitignore
+
+## About
+This repository contains my Day 8 Git and GitHub learning notes as part of my AWS Cloud and DevOps learning journey.
+
+## Topics Covered
+
+### 1. Git Workflow
+- Understanding the Git workflow
+- Checking repository status
+- Viewing file changes
+- Understanding commit history
+- Renaming and removing files
+- Restoring file changes
+- Temporarily saving changes using Git Stash
+
+### 2. Gitignore
+- Understanding the `.gitignore` file
+- Why `.gitignore` is needed
+- Ignoring files and folders
+- Ignoring log files and temporary files
+- Ignoring environment and configuration files
+- Common `.gitignore` patterns
+
+## Important Commands
+- `git status`
+- `git diff`
+- `git diff --staged`
+- `git log --oneline`
+- `git show`
+- `git restore`
+- `git mv`
+- `git rm`
+- `git stash`
+- `git check-ignore`
+
+## Learning Outcome
+I learned how to manage file changes, review commit history, temporarily save 
+uncommitted work, and prevent unwanted files from being tracked using `.gitignore`.
+
+## Purpose
+To understand a clean Git workflow and learn how developers manage project
+files safely and efficiently in real-world development environments.
 
 
 
