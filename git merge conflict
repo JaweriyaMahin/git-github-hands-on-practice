@@ -1,0 +1,138 @@
+
+# 1. Git Merge Conflict Resolution
+
+## What is a Merge Conflict?
+A merge conflict occurs when Git cannot automatically
+combine changes from different branches.
+
+It usually happens when two branches modify the same
+part of a file or when conflicting file operations occur.
+
+## Why Do Merge Conflicts Occur?
+- Two developers modify the same line.
+- One branch deletes a file while another modifies it.
+- Different changes cannot be automatically combined.
+- Changes overlap during a merge or rebase.
+
+## Why is Merge Conflict Resolution Needed?
+- To combine changes correctly.
+- To prevent accidental loss of code.
+- To maintain code quality.
+- To ensure the application works correctly.
+
+## How Does Merge Conflict Resolution Work?
+1. Git identifies conflicting changes.
+2. Git marks the conflicted files.
+3. The developer opens the affected files.
+4. The developer reviews both versions.
+5. The developer selects or combines the required changes.
+6. The developer stages the resolved files.
+7. The merge operation is completed.
+
+
+
+## Important Commands
+
+git status
+Shows files with merge conflicts.
+
+git diff
+Displays conflicting changes.
+
+git add filename
+Marks the file as resolved after editing.
+
+git commit
+Completes the merge when a merge commit is required.
+
+git merge --abort
+Cancels an ongoing merge and returns to the
+pre-merge state.
+
+## Real-World Example
+Two developers work on the same application.
+One updates the login functionality while another
+changes the same section.
+
+When their branches are merged, Git may report
+a conflict. The team reviews both changes and
+decides which code should be retained.
+
+
+
+# 2. Git Stash and Stash Pop
+
+## What is Git Stash?
+Git stash temporarily saves uncommitted changes
+so that developers can work on another task
+without creating a commit.
+
+It is useful when developers need to switch
+branches or handle urgent work.
+
+## Why is Git Stash Used?
+- To temporarily save unfinished work.
+- To switch branches safely.
+- To work on urgent tasks.
+- To keep the commit history clean.
+- To restore work later.
+
+## What is Git Stash Pop?
+Git stash pop applies the most recently stashed
+changes to the working directory and removes
+that stash entry if the application succeeds.
+
+## How Does Git Stash Work?
+1. A developer makes changes to files.
+2. The developer saves the changes using stash.
+3. The working directory becomes clean for
+   the saved tracked changes.
+4. The developer works on another task.
+5. The developer restores the saved changes later.
+
+## Important Commands
+
+git stash
+Temporarily saves tracked changes.
+
+git stash list
+Displays all saved stash entries.
+
+git stash pop
+Applies the latest stash and removes its entry
+if successful.
+
+git stash apply
+Applies saved changes but keeps the stash entry.
+
+git stash drop
+Deletes a selected stash entry.
+
+git stash clear
+Removes all stash entries.
+
+git stash push -m "message"
+Saves changes with a descriptive message.
+
+## Difference Between Stash Pop and Stash Apply
+
+Stash Pop:
+Applies changes and removes the stash entry
+if successful.
+
+Stash Apply:
+Applies changes but keeps the stash entry.
+
+## Real-World Example
+A developer is working on a new feature.
+Suddenly, a critical bug needs to be fixed.
+
+Instead of committing unfinished work, the developer
+uses Git stash, switches to the required branch,
+fixes the bug, and later restores the saved work.
+
+## Important Point
+Git stash is mainly used for temporary local changes.
+Untracked files are not included by default.
+Use git stash -u to include untracked files.
+
