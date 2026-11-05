@@ -287,3 +287,49 @@ files safely and efficiently in real-world development environments.
 
 
 
+# Day 9: Git Merge Conflict Resolution and Git Stash
+
+## About
+This repository contains my Day 9 Git and GitHub learning notes as part of my AWS Cloud and DevOps learning journey.
+
+## Topics Covered
+
+### 1. Git Merge Conflict Resolution
+- Understanding merge conflicts
+- Common causes of merge conflicts
+- Understanding conflict markers
+- Resolving conflicts manually
+- Staging and committing resolved files
+- Aborting a merge
+- Real-world merge conflict scenarios
+
+### 2. Git Stash
+- Understanding Git Stash
+- Temporarily saving uncommitted changes
+- Viewing saved stash entries
+- Applying and removing stash entries
+- Difference between `git stash pop` and `git stash apply`
+- Stashing untracked files
+
+## Important Commands
+- `git status`
+- `git diff`
+- `git merge --abort`
+- `git stash`
+- `git stash list`
+- `git stash pop`
+- `git stash apply`
+- `git stash drop`
+- `git stash clear`
+- `git stash -u`
+
+## Learning Outcome
+I learned how to identify and resolve Git merge conflicts and how to temporarily save uncommitted changes using Git Stash.
+
+## Purpose
+To understand common Git challenges and learn how to manage changes effectively while 
+working with branches and collaborating with other developers.
+
+
+
+
