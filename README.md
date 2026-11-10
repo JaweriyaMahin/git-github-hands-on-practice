@@ -331,5 +331,69 @@ To understand common Git challenges and learn how to manage changes effectively 
 working with branches and collaborating with other developers.
 
 
+# Day 10 – Git Reset and Git Revert
+
+## Overview
+This document covers Git Reset and Git Revert, two important Git commands used to undo changes and manage commit history.
+
+## Topics Covered
+- Introduction to Git Reset
+- Types of Git Reset
+  - Soft Reset
+  - Mixed Reset
+  - Hard Reset
+- Introduction to Git Revert
+- Difference between Git Reset and Git Revert
+- Real-world scenarios
+- Git interview questions
+
+## Git Reset
+Git Reset is used to move the current branch to an earlier commit and manage changes in the staging area and working directory.
+
+### Types of Git Reset
+
+**1. Soft Reset**
+- Moves the branch to an earlier commit.
+- Keeps changes staged.
+
+**2. Mixed Reset**
+- Moves the branch to an earlier commit.
+- Removes changes from the staging area.
+- Keeps changes in the working directory.
+
+**3. Hard Reset**
+- Moves the branch to an earlier commit.
+- Resets the staging area.
+- Discards changes to tracked files in the working directory.
+
+## Git Revert
+Git Revert is used to undo the changes introduced by a previous commit by creating a new commit.
+
+It is useful when working with shared repositories because it preserves the existing commit history.
+
+## Git Reset vs Git Revert
+
+| Git Reset | Git Revert |
+|---|---|
+| Moves the branch pointer | Creates a new commit |
+| Can rewrite commit history | Preserves commit history |
+| Useful for local changes | Useful for shared repositories |
+
+## Real-World Use Cases
+- Undoing an incorrect local commit.
+- Removing files from the staging area.
+- Discarding unwanted local changes.
+- Reversing incorrect changes pushed to GitHub.
+- Maintaining a clear commit history.
+
+## Learning Outcome
+After studying these topics, I understood how Git Reset and Git Revert work,
+their differences, and when to use them in real-world development.
+
+## Conclusion
+Practicing Git Reset and Git Revert helps me understand how to manage mistakes,
+undo changes, and maintain commit history while working with Git and GitHub.
+
+
 
 
