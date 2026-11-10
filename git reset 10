@@ -1,0 +1,76 @@
+1. What is Git Reset?
+Git Reset is a command used to move the current branch to an earlier commit and undo changes from the commit history.
+
+Simple meaning: If you accidentally create a commit and want to go back to a previous commit, you can use Git Reset.
+
+Why do we need Git Reset?
+- To undo an incorrect commit.
+- To move back to a previous commit.
+- To unstage files.
+- To correct local commit history.
+2. Types of Git Reset
+Git Reset has three main types.
+A. Soft Reset
+- Moves the branch pointer to an earlier commit.
+- Keeps changes in the staging area.
+- Does not delete your working files.
+Example: You created a commit but entered the wrong commit message. You can undo the commit while keeping the changes staged.
+
+Command:
+git reset --soft HEAD~1
+
+
+B. Mixed Reset
+- Moves the branch pointer to an earlier commit.
+- Removes changes from the staging area.
+- Keeps changes in the working directory.
+Example: You staged and committed some files, but now you want to review them before committing again.
+
+Command:
+git reset --mixed HEAD~1
+
+
+Default reset type
+Mixed is the default mode of git reset.
+C. Hard Reset
+- Moves the branch pointer to an earlier commit.
+- Resets the staging area.
+- Discards changes to tracked files in the working directory.
+Example: You want to discard local changes and return to the previous committed state.
+
+Command:
+git reset --hard HEAD~1
+
+
+Warning
+Hard Reset can permanently remove uncommitted work. Use it carefully.
+3. What is Git Revert?
+Git Revert is a Git command used to undo the changes introduced by a particular commit by creating a new commit.
+
+Simple meaning: If you made a mistake in a commit and want to undo its changes without removing the existing commit history, you can use Git Revert.
+
+Why do we need Git Revert?
+- To undo incorrect changes.
+- To preserve existing commit history.
+- To safely reverse changes in shared repositories.
+- To support team collaboration.
+Command:
+git revert <commit-id>
+
+
+Real-world example:
+
+Suppose your team adds a new feature to a website. After deployment, the feature causes an error.
+
+The team wants to undo the feature but keep the previous commit history.
+
+In this situation, Git Revert is useful.
+4. Git Reset vs Git Revert
+Feature	Git Reset	Git Revert
+Working	Moves branch pointer	Creates a new commit
+History	Rewrites local history	Preserves history
+Shared repository	Can be risky	Generally safer
+Undo method	Moves to an earlier commit	Reverses changes
+Best use	Local commits	Shared commits
+
+
