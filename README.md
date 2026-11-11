@@ -395,5 +395,3 @@ Practicing Git Reset and Git Revert helps me understand how to manage mistakes,
 undo changes, and maintain commit history while working with Git and GitHub.
 
 
-
-
