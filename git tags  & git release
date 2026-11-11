@@ -1,0 +1,135 @@
+DAY 11
+Theory
+
+Git Tags & GitHub Releases
+Version Control | Project Releases | Version Management
+
+1. Introduction to Git Tags
+2. Why Git Tags are needed
+3. Types of Git Tags
+4. Important Git Tag Commands
+5. GitHub Releases
+6. Git Tags vs GitHub Releases
+7. Real-world examples
+8. Interview questions
+
+1. What are Git Tags?
+Git Tags are used to mark specific commits in a Git repository.
+
+They help developers identify important points in a project's development history, such as software versions or releases.
+
+Simple example:
+
+Suppose you are developing a website.
+- Version 1.0 – Initial website launch.
+- Version 1.1 – Bug fixes.
+- Version 2.0 – New features added.
+You can use Git Tags to mark these versions.
+2. Why do we need Git Tags?
+- To identify specific project versions.
+- To mark stable releases.
+- To track important commits.
+- To make version management easier.
+- To identify which code belongs to a particular release.
+3. Types of Git Tags
+Git provides two main types of tags.
+A. Lightweight Tags
+A lightweight tag is a simple reference to a specific commit.
+
+It does not contain additional information such as the tagger's name, date or message.
+
+Example:
+git tag v1.0
+
+
+B. Annotated Tags
+An annotated tag stores additional information, such as:
+- Tag name
+- Tagger's name
+- Date
+- Tag message
+Example:
+git tag -a v1.0 -m "First stable release"
+
+
+Annotated tags are generally preferred for official releases.
+4. Important Git Tag Commands
+1. Create a tag
+git tag v1.0
+
+
+2. Create an annotated tag
+git tag -a v1.0 -m "First release"
+
+
+3. List all tags
+git tag
+
+
+4. View tag details
+git show v1.0
+
+
+5. Push a specific tag to GitHub
+git push origin v1.0
+
+
+6. Push all tags
+git push origin --tags
+
+
+7. Delete a local tag
+git tag -d v1.0
+
+
+8. Delete a remote tag
+git push origin --delete v1.0
+
+
+5. What are GitHub Releases?
+GitHub Releases allow developers to publish and share specific versions of their projects.
+
+A release is generally associated with a Git Tag.
+
+Why do we need GitHub Releases?
+- To publish official software versions.
+- To share project updates.
+- To provide release notes.
+- To upload downloadable project files.
+- To inform users about new features and bug fixes.
+Example:
+
+Suppose you have developed an application and want to publish version 1.0.
+
+You can create a Git Tag named v1.0 and then create a GitHub Release using that tag.
+
+Your release can include:
+- Version number
+- Release title
+- Description
+- New features
+- Bug fixes
+- Downloadable files
+6. Git Tags vs GitHub Releases
+Git Tags	GitHub Releases
+Marks a specific commit	Publishes a project version
+Created using Git commands	Created through GitHub
+Identifies versions	Provides release information
+Can be lightweight or annotated	Can include notes and files
+
+7. Real-world scenario
+Imagine you are working in a DevOps team.
+
+Your team develops an application and completes its first stable version.
+
+The development team wants to:
+1. Mark the stable commit as v1.0.
+2. Push the tag to GitHub.
+3. Create a GitHub Release.
+4. Add release notes.
+5. Share the release with users.
+Git Tags and GitHub Releases help manage this process.
+
+
+
+
