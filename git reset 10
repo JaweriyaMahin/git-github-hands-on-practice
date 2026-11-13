@@ -53,9 +53,11 @@ Warning
 Hard Reset can permanently remove uncommitted work. Use it carefully.
 
 3. What is Git Revert?
-Git Revert is a Git command used to undo the changes introduced by a particular commit by creating a new commit.
+Git Revert is a Git command used to undo the changes introduced by a particular
+commit by creating a new commit.
 
-Simple meaning: If you made a mistake in a commit and want to undo its changes without removing the existing commit history, you can use Git Revert.
+Simple meaning: If you made a mistake in a commit and want to undo its changes without 
+removing the existing commit history, you can use Git Revert.
 
 Why do we need Git Revert?
 - To undo incorrect changes.
