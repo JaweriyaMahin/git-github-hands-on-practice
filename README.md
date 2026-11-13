@@ -395,3 +395,107 @@ Practicing Git Reset and Git Revert helps me understand how to manage mistakes,
 undo changes, and maintain commit history while working with Git and GitHub.
 
 
+# Day 11 – Git Tags and GitHub Releases
+
+## Overview
+This document covers Git Tags and GitHub Releases, which are used to manage project 
+versions and publish software releases.
+
+## Topics Covered
+- Introduction to Git Tags
+- Why Git Tags are needed
+- Types of Git Tags
+- Lightweight Tags
+- Annotated Tags
+- Important Git Tag commands
+- GitHub Releases
+- Difference between Git Tags and GitHub Releases
+- Real-world scenarios
+
+## What are Git Tags?
+Git Tags are used to mark specific commits in a repository. They help developers identify
+important points in project development, such as software versions and stable releases.
+
+## Types of Git Tags
+
+### 1. Lightweight Tags
+A lightweight tag is a simple reference to a specific commit. It does not contain additional metadata.
+
+### 2. Annotated Tags
+An annotated tag stores additional information such as the tagger's name, date, and tag message.
+
+## Important Git Tag Commands
+
+**Create a lightweight tag**
+```bash
+git tag v1.0
+```
+
+**Create an annotated tag**
+```bash
+git tag -a v1.0 -m "First release"
+```
+
+**List all tags**
+```bash
+git tag
+```
+
+**View tag details**
+```bash
+git show v1.0
+```
+
+**Push a specific tag**
+```bash
+git push origin v1.0
+```
+
+**Push all tags**
+```bash
+git push origin --tags
+```
+
+**Delete a local tag**
+```bash
+git tag -d v1.0
+```
+
+**Delete a remote tag**
+```bash
+git push origin --delete v1.0
+```
+
+## What are GitHub Releases?
+GitHub Releases are used to publish specific versions of a project. They are generally 
+associated with Git Tags and can include release notes, version details, and downloadable files.
+
+## Git Tags vs GitHub Releases
+
+| Git Tags | GitHub Releases |
+|---|---|
+| Marks a specific commit | Publishes a project version |
+| Created using Git commands | Created through GitHub |
+| Identifies project versions | Provides release information |
+| Can be lightweight or annotated | Can include notes and files |
+
+## Real-World Use Cases
+- Marking stable application versions.
+- Tracking important project commits.
+- Publishing software updates.
+- Sharing release notes with users.
+- Managing different application versions.
+
+## Learning Outcome
+After studying these topics, I understood how Git Tags work, the difference between 
+lightweight and annotated tags, and how GitHub Releases help manage software versions.
+
+## Conclusion
+Git Tags and GitHub Releases are useful for version management and software delivery. 
+They help developers organize project versions and share stable releases.
+
+---
+
+
+
+
