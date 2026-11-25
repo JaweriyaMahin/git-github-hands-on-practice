@@ -324,7 +324,8 @@ This repository contains my Day 9 Git and GitHub learning notes as part of my AW
 - `git stash -u`
 
 ## Learning Outcome
-I learned how to identify and resolve Git merge conflicts and how to temporarily save uncommitted changes using Git Stash.
+I learned how to identify and resolve Git merge conflicts and how to temporarily save 
+uncommitted changes using Git Stash.
 
 ## Purpose
 To understand common Git challenges and learn how to manage changes effectively while 
@@ -334,7 +335,8 @@ working with branches and collaborating with other developers.
 # Day 10 – Git Reset and Git Revert
 
 ## Overview
-This document covers Git Reset and Git Revert, two important Git commands used to undo changes and manage commit history.
+This document covers Git Reset and Git Revert, two important Git commands used to
+undo changes and manage commit history.
 
 ## Topics Covered
 - Introduction to Git Reset
@@ -348,7 +350,8 @@ This document covers Git Reset and Git Revert, two important Git commands used t
 - Git interview questions
 
 ## Git Reset
-Git Reset is used to move the current branch to an earlier commit and manage changes in the staging area and working directory.
+Git Reset is used to move the current branch to an earlier commit and manage changes
+in the staging area and working directory.
 
 ### Types of Git Reset
 
