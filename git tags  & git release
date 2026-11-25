@@ -1,6 +1,3 @@
-DAY 11
-Theory
-
 Git Tags & GitHub Releases
 Version Control | Project Releases | Version Management
 
@@ -115,12 +112,11 @@ Your release can include:
 - Downloadable files
 
 6. Git Tags vs GitHub Releases
-Git Tags	GitHub Releases
-Marks a specific commit	Publishes a project version
-Created using Git commands	Created through GitHub
-Identifies versions	Provides release information
-Can be lightweight or annotated	Can include notes and files
-
+Git Tags	                          GitHub Releases
+Marks a specific commit	            Publishes a project version
+Created using Git commands	        Created through GitHub
+Identifies versions                	Provides release information
+Can be lightweight or annotated	    Can include notes and files
 
 
 
